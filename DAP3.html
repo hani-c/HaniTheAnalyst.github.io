@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>DataImmo</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo"><strong>Data Portfolio</strong> <span>by Hani the Analyst</span></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sql.html">SQL Projects</a></li>
+				<li><a href="python.html">Python Projects</a></li>
+				<li><a href="tableau.html">Tableau Projects</a></li>
+				<li><a href="excel.html">Excel Projects</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main" class="alt">
+
+			<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header class="major">
+						<h1>DataImmo</h1>
+					</header>
+					<span class="image main"><img src="images/projects/dap3/logo.png" alt="" /></span>
+					<p>Mission carried as a data analyst at Laplace Immo, a French national network of real estate
+						agencies. The Managing Director has been aware of the importance of data for some time now and
+						feels that the agency needs to set itself apart from the competition by creating a model to
+						better predict the sale price of properties.</p>
+
+					<p>Internally, this strategic project was called "DATAImmo". The company's CTO was responsible for
+						leading the project.</p>
+
+					<p>As part of this, the task of modifying the database used to collect real estate and land
+						transactions in France was requested. The database was then used to analyze the market and help
+						the various regional agencies to better support their customers.</p>
+					</p>
+
+					<span class="image right"><img src="images/projects/dap3/model.png"
+							data-position="center center" /></span>
+
+					<p><u>Software used</u>:&nbsp;<strong>SQLite</strong></p>
+
+					<p><u>Data used</u>:</p>
+
+					<ul>
+						<li>Data extracted from the Demandes de valeurs fonci&egrave;res (DVF) open data site</li>
+						<li>INSEE data with population census results</li>
+						<li>Data from data.gouv on the regions, with the French geographical reference system, communes,
+							urban units, urban areas, departments, academies, regions.</li>
+					</ul>
+
+
+
+					<p><u>Process</u>:</p>
+
+					<ol>
+						<li>&nbsp;Preparation of the data dictionary to list and describe the important data to be
+							stored.</li>
+						<li>Modification of the relational schema to take into account the new region and population
+							data to enable the visualization the different entities, associations and cardinalities in
+							the database.</li>
+						<li>Implementation of the tables in the database</li>
+						<li>Extraction of the data needed</li>
+					</ol>
+
+					<span class="image"><img src="images/projects/dap3/dico.png" data-position="center center" /></span>
+
+					<p><u>Data analysis requirements</u></p>
+
+					<ol>
+						<li>Total number of apartments sold in the 1st half of 2020.</li>
+						<li>Number of apartment sales by region for the 1st semester&nbsp;2020.</li>
+						<li>Proportion of apartment sales by number of rooms.</li>
+						<li>List of the 10 departments with the highest price per square meter.</li>
+						<li>Average price per square meter for a house in &Icirc;le-de-France.</li>
+						<li>List of the 10 most expensive apartments with region and&nbsp;square meters.</li>
+						<li>Rate of change in the number of sales between the first and second quarter of 2020.</li>
+						<li>Ranking of regions by price per square meter of&nbsp;apartments with more than 4 rooms.</li>
+						<li>List of towns with at least 50 sales in the 1st quarter.</li>
+						<li>Percentage difference in price per square meter&nbsp;between a 2-room apartment and a 3-room
+							apartment.</li>
+						<li>Average property values for the top 3 towns in the French departments&nbsp;6, 13, 33, 59 and
+							69.</li>
+						<li>The 20 communes with the most transactions per 1,000 inhabitants&nbsp;for towns with more
+							than 10,000 inhabitants.</li>
+					</ol>
+
+					<span class="image"><img src="images/projects/dap3/query.png"
+							data-position="center center" /></span>
+
+					<p>
+					<ul class="actions">
+						<li><a href="https://github.com/hani-c/DataProjectsPortfolio/blob/main/dataimmo/queries.sql"
+								class="button">View code</a></li>
+						<li><a href="https://github.com/hani-c/DataProjectsPortfolio/blob/main/dataimmo/Results_report.pdf"
+								class="button">View results</a></li>
+					</ul>
+					</p>
+
+				</div>
+			</section>
+
+		</div>
+
+
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; HaniC</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
